@@ -9,10 +9,10 @@ output_dir = Path("generated_images")
 output_dir.mkdir(exist_ok=True)
 
 payload = {
-    "prompt": "closeup portrait of a man in d&D setting, a sorcerer, dungeon setting, cinematic lighting, ((dlsr, dof, photorealistic, photoshoot, realistic)), torches on the wall, dark hair, dark short beart",
+    "prompt": "closeup portrait of a man in d&D setting, man in his 50's, older man, a sorcerer, dungeon setting, cinematic lighting, ((dlsr, dof, photorealistic, photoshoot, realistic)), torches on the wall, dark hair, dark short beart",
     "negative_prompt": "((cgi, cartoon, animation, painting)), hat, sweaty, candles, blurry, low quality",
     "steps": 30,
-    "sampler_name": "DPM++ 2M",
+    "sampler_name": "DPM++ 2M SDE",
     "scheduler": "Karras",
     "cfg_scale": 4,
     "width": 512,
